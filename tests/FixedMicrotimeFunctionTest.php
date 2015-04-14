@@ -15,7 +15,7 @@ class FixedMicrotimeFunctionTest extends \PHPUnit_Framework_TestCase
     
     /**
      * Tests setMicrotime().
-     * 
+     *
      * @test
      */
     public function testSetMicrotime()
@@ -27,7 +27,7 @@ class FixedMicrotimeFunctionTest extends \PHPUnit_Framework_TestCase
     
     /**
      * Tests setMicrotimeAsFloat().
-     * 
+     *
      * @test
      */
     public function testSetMicrotimeAsFloat()
@@ -39,7 +39,7 @@ class FixedMicrotimeFunctionTest extends \PHPUnit_Framework_TestCase
     
     /**
      * Tests getMicrotime().
-     * 
+     *
      * @test
      */
     public function testGetMicrotime()
@@ -52,7 +52,7 @@ class FixedMicrotimeFunctionTest extends \PHPUnit_Framework_TestCase
     
     /**
      * Tests getCallable()
-     * 
+     *
      * @test
      */
     public function testGetCallable()
@@ -75,7 +75,7 @@ class FixedMicrotimeFunctionTest extends \PHPUnit_Framework_TestCase
     
     /**
      * Tests initializing with the current timestamp
-     * 
+     *
      * @test
      */
     public function testConstructCurrentTime()
@@ -88,10 +88,10 @@ class FixedMicrotimeFunctionTest extends \PHPUnit_Framework_TestCase
     
     /**
      * Tests initializing with a timestamp.
-     * 
+     *
      * @param mixed $timestamp The tested timestamp.
      * @param float $expected  The expected timestamp.
-     * 
+     *
      * @test
      * @dataProvider provideTestConstruct
      */
@@ -104,7 +104,7 @@ class FixedMicrotimeFunctionTest extends \PHPUnit_Framework_TestCase
     
     /**
      * Provides test cases for testConstruct().
-     * 
+     *
      * @return array
      */
     public function provideTestConstruct()

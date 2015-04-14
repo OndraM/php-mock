@@ -21,7 +21,7 @@ class MicrotimeMock extends AbstractMock
     
     /**
      * Sets the mock's timestamp to the current time.
-     * 
+     *
      * @param string $namespace The mock's namespace.
      */
     public function __construct($namespace)
@@ -38,7 +38,7 @@ class MicrotimeMock extends AbstractMock
     
     /**
      * Set the microtime in PHP's string format.
-     * 
+     *
      * @param string $microtime Microtime in PHP's string format.
      */
     public function setMicrotime($microtime)
@@ -48,7 +48,7 @@ class MicrotimeMock extends AbstractMock
     
     /**
      * Set the microtime as float.
-     * 
+     *
      * @param float $microtime Microtime as float.
      */
     public function setMicrotimeAsFloat($microtime)

@@ -37,7 +37,7 @@ class MockTest extends \PHPUnit_Framework_TestCase
 
     /**
      * Tests enable().
-     * 
+     *
      * @test
      */
     public function testEnable()
@@ -47,7 +47,7 @@ class MockTest extends \PHPUnit_Framework_TestCase
     
     /**
      * Tests failing enabling an already enabled mock.
-     * 
+     *
      * @expectedException malkusch\phpmock\MockEnabledException
      * @test
      */
@@ -58,7 +58,7 @@ class MockTest extends \PHPUnit_Framework_TestCase
     
     /**
      * Tests disabling and enabling again.
-     * 
+     *
      * @test
      */
     public function testReenable()
@@ -70,7 +70,7 @@ class MockTest extends \PHPUnit_Framework_TestCase
 
     /**
      * Tests disable().
-     * 
+     *
      * @test
      */
     public function testDisable()

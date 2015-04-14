@@ -8,7 +8,7 @@ namespace malkusch\phpmock;
  * Example:
  * <code>
  * <?php
- * 
+ *
  * namespace foo;
  *
  * use malkusch\phpmock\MockBuilder;
@@ -18,9 +18,9 @@ namespace malkusch\phpmock;
  * $builder->setNamespace(__NAMESPACE__)
  *         ->setName(__NAMESPACE__)
  *         ->setCallableProvider(new FixedValueFunction(1417011228));
- * 
+ *
  * $mock = $builder->build();
- * 
+ *
  * // The mock is not enabled yet.
  * assert (time() != 1417011228);
  *
@@ -31,7 +31,7 @@ namespace malkusch\phpmock;
  * $mock->disable();
  * assert (time() != 1417011228);
  * </code>
- * 
+ *
  * @author Markus Malkusch <markus@malkusch.de>
  * @link bitcoin:1335STSwu9hST4vcMRppEPgENMHD2r1REK Donations
  * @license WTFPL
@@ -57,7 +57,7 @@ class MockBuilder
     
     /**
      * Sets the mock namespace.
-     * 
+     *
      * @param string $namespace The function namespace.
      * @return MockBuilder
      */
@@ -69,7 +69,7 @@ class MockBuilder
     
     /**
      * Sets the mocked function name.
-     * 
+     *
      * @param string $name The function name.
      * @return MockBuilder
      */
@@ -81,7 +81,7 @@ class MockBuilder
     
     /**
      * Sets the mock function.
-     * 
+     *
      * @param callable $function The mock function.
      * @return MockBuilder
      * @see setCallableProvider()
@@ -94,7 +94,7 @@ class MockBuilder
     
     /**
      * Sets the mock function.
-     * 
+     *
      * @param CallableProvider $provider The mock function provider.
      * @return MockBuilder
      * @see setFunction()
@@ -106,7 +106,7 @@ class MockBuilder
     
     /**
      * Builds a mock.
-     * 
+     *
      * @return Mock The mock.
      */
     public function build()

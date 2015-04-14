@@ -4,7 +4,7 @@ namespace malkusch\phpmock;
 
 /**
  * Mocks PHP's built-in date() function.
- * 
+ *
  * This mock ignores completely date's timestamp parameter. I.e. it will
  * always return the formated date for the mock's timestamp.
  *
@@ -24,7 +24,7 @@ class DateMock extends AbstractMock
     
     /**
      * Sets the mock's timestamp to the current time.
-     * 
+     *
      * @param string $namespace The mock's namespace.
      */
     public function __construct($namespace)
@@ -41,7 +41,7 @@ class DateMock extends AbstractMock
     
     /**
      * Set the timestamp.
-     * 
+     *
      * @param int $timestamp Timestamp
      */
     public function setTime($timestamp)

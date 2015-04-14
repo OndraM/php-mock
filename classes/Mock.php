@@ -4,7 +4,7 @@ namespace malkusch\phpmock;
 
 /**
  * Mocking framework for built-in PHP functions.
- * 
+ *
  * Mocking a build-in PHP function is achieved by using
  * PHP's namespace fallback policy. A mock will provide the namespaced function.
  * I.e. only unqualified functions in a non-global namespace can be mocked.
@@ -39,7 +39,7 @@ class Mock
     
     /**
      * Set the namespace, function name and the mock function.
-     * 
+     *
      * @param string   $namespace  The namespace for the mock function.
      * @param string   $name       The function name of the mocked function.
      * @param callable $function   The mock function.
@@ -53,7 +53,7 @@ class Mock
     
     /**
      * Enables this mock.
-     * 
+     *
      * @throws MockEnabledException If the function has already an enabled mock.
      */
     public function enable()
@@ -79,9 +79,9 @@ class Mock
     
     /**
      * Returns the defined callable for a mocked function.
-     * 
+     *
      * This method is called from the function mock.
-     * 
+     *
      * @param string $canonicalFunctionName The canonical function name.
      * @return callable
      * @internal
@@ -97,7 +97,7 @@ class Mock
     
     /**
      * Returns the function name with its namespace.
-     * 
+     *
      * @return String The function name with its namespace.
      */
     private function getCanonicalFunctionName()
@@ -107,7 +107,7 @@ class Mock
 
     /**
      * Defines the mocked function in the given namespace.
-     * 
+     *
      * If the function was already defined this method does nothing.
      */
     private function defineMockFunction()

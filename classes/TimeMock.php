@@ -21,7 +21,7 @@ class TimeMock extends AbstractMock
     
     /**
      * Sets the mock's timestamp to the current time.
-     * 
+     *
      * @param string $namespace The mock's namespace.
      */
     public function __construct($namespace)
@@ -38,7 +38,7 @@ class TimeMock extends AbstractMock
     
     /**
      * Set the timestamp.
-     * 
+     *
      * @param int $timestamp Timestamp
      */
     public function setTime($timestamp)

@@ -26,7 +26,7 @@ class MtRandMock extends AbstractMock
     
     /**
      * Set the predicted random number.
-     * 
+     *
      * @param int $number The predicted random number
      */
     public function setNumber($number)

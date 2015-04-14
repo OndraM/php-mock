@@ -17,7 +17,7 @@ class ExampleTest extends \PHPUnit_Framework_TestCase
 
     /**
      * Tests the example from the documentation.
-     * 
+     *
      * @test
      */
     public function testExample1()
@@ -41,7 +41,7 @@ class ExampleTest extends \PHPUnit_Framework_TestCase
 
     /**
      * Tests the example from the documentation.
-     * 
+     *
      * @test
      */
     public function testExample2()
